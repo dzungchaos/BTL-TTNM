@@ -1,0 +1,291 @@
+$(function () {
+
+    let selected, flag = false;
+    let width = $(window).width();
+    let active_general_view = false,
+        active_arena = false,
+        active_show_flat = false,
+        active_amentites = false,
+        active_map = false;
+    $("body").click(function () {
+        $(".icon-swipe").hide();
+    })
+    $("#general-view").mousedown(function () {
+        $(".icon-swipe").fadeOut();
+    });
+    $(".selectpicker").selectpicker('hide');
+
+    // ----- Contact event -----
+    if ($(window).width() < 599) {
+        $(".btn-contact").click(function () {
+            $(".id-phone-number").toggle();
+        });
+    }
+
+    // ----- Action events ------
+    $(".action__item:not(:first, :last)").click(function () {
+        $(this).toggleClass("active-item");
+        $(this).siblings().removeClass("active-item");
+    });
+
+    $(".home").click(function () {
+        $(".menu-bottom").fadeIn();
+        $(".overlay").fadeOut();
+        $(".wrap-carousel").fadeOut();
+        $(".wrap-gallery").fadeOut();
+        $(".select__item").fadeOut();
+        $(".show-img").fadeOut();
+        $(".show-tutorial").fadeOut();
+        $(this).siblings().removeClass("active-item");
+        $(".menu__item").removeClass("active-item");
+        $(".option__item").removeClass("active-item");
+        $(".general-view").addClass("active-item");
+        $(".option__day").addClass("active-item");
+        $(".carousel-ground2D").fadeOut();
+        reset_selectbox();
+    });
+    $(".subdivision").click(function () {
+        $(".menu-bottom").fadeIn();
+        $(".overlay").fadeOut();
+        $(".wrap-carousel").fadeOut();
+        $(".wrap-gallery").fadeOut();
+        $(".show-img").fadeOut();
+        $(".show-tutorial").fadeOut();
+        $(".carousel-ground2D").fadeOut();
+        $(".show-tutorial").fadeOut();
+
+        reset_selectbox();
+    });
+
+
+    $(".info").click(function () {
+        $(".menu-bottom").fadeIn();
+        $(".option-box").fadeIn();
+        $(".overlay").fadeIn();
+        $(".wrap-carousel").fadeOut();
+        $(".wrap-gallery").fadeOut();
+        $(".select__item").fadeOut();
+        $(".show-img").fadeOut();
+        $(".show-tutorial").fadeOut();
+        $(this).siblings().removeClass("active-item");
+        $(".menu__item").removeClass("active-item");
+        $(".option__item").removeClass("active-item");
+        $(".general-view").addClass("active-item");
+        $(".option__day").addClass("active-item");
+        reset_selectbox();
+        $(".wrap-carousel").fadeIn();
+        $(".carousel-ground2D").fadeOut();
+
+    });
+
+
+    // ----- Menu events ------
+
+    $(".menu__item").click(function () {
+        $(this).addClass("active-item");
+        $(this).siblings().removeClass("active-item");
+    });
+
+    $(".nav-pills .nav-link").click(function () {
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+    });
+
+    $(".general-view").click(function () {
+        active_general_view = false;
+        active_arena = false;
+        active_show_flat = false;
+        active_amentites = false;
+        active_map = false;
+        $(".carousel-ground2D").fadeOut();
+    });
+
+    // $(".area").click(function() {
+    //     active_general_view = false;
+    //     active_arena = !active_arena;
+    //     active_show_flat = false;
+    //     active_amentites = false;
+    //     active_map = false;
+    //     // console.log(active_arena);
+
+    //     // console.log("ngaqq");
+    //     if (active_arena == true) {
+    //         $(".overlay").fadeOut();
+    //         $(".option-box").fadeOut();
+    //         $(".wrap-gallery").fadeOut();
+    //         $(".show-img").fadeOut();
+    //         $(".wrap-carousel").fadeOut();
+    //         // $(".select__item").fadeOut();
+    //         $(".select-box").fadeIn();
+    //         // $(".select__area").empty();
+    //         $(".select__arena").hide();
+    //         $(".select__showflat").hide();
+    //         $(".overlay").fadeIn();
+    //         $(".carousel-ground2D").fadeIn();
+
+    //     } else {
+    //         $(".carousel-ground2D").fadeOut();
+    //         $(".select-box").fadeOut();
+    //     }
+    //     // reset_selectbox();
+    // });
+
+    $(".show-flat").click(function () {
+        active_general_view = false;
+        active_arena = false;
+        active_show_flat = !active_show_flat;
+        active_amentites = false;
+        active_map = false;
+        $(".carousel-ground2D").fadeOut();
+        $(".wrap-carousel").fadeOut();
+    });
+
+    $(".amentites").click(function () {
+        active_general_view = false;
+        active_arena = false;
+        active_show_flat = false;
+        active_amentites = !active_amentites;
+        active_map = false;
+        $(".carousel-ground2D").fadeOut();
+        $(".option-box").fadeOut();
+
+        $(".option-box").fadeOut();
+        $(".select-box").fadeOut();
+        $(".wrap-carousel").fadeOut();
+        $(".overlay").fadeIn();
+        $(".wrap-gallery").fadeIn();
+        $(".action__item").removeClass("active-item");
+        $(".show-tutorial").fadeOut();
+
+    });
+
+    $(".map").click(function () {
+        active_general_view = false;
+        active_arena = false;
+        active_show_flat = false;
+        active_amentites = false;
+        active_map = false;
+        $(".carousel-ground2D").fadeOut();
+    });
+
+    $(".option__item").click(function () {
+        $(this).addClass("active-item");
+        $(this).siblings().removeClass("active-item");
+    });
+
+    // ----- overlay event -----
+    $(".overlay").click(function () {
+        $(this).hide();
+        $(".wrap-carousel").fadeOut();
+        $(".wrap-gallery").fadeOut();
+        $(".carousel-ground2D").fadeOut();
+        $(".show-img").fadeOut();
+        $(".show-tutorial").fadeOut();
+        $(".menu__item").removeClass("active-item");
+        $(".general-view").addClass("active-item");
+    });
+
+    // ---- Close event ----
+    $(".close").click(function () {
+        $(".show-img").fadeOut();
+        $(".wrap-gallery").fadeIn();
+    });
+
+    $(".close-tutorial").click(function () {
+        $(".show-tutorial").fadeOut();
+        $(".overlay").fadeOut();
+        $(".action__item").removeClass("active-item");
+    });
+
+    // ----- Render image in gallery ------
+
+
+    $(".nav-link").click(function () {
+        $(this).addClass("active");
+        $(this).parent().siblings().children().removeClass("active");
+    });
+
+    // panos.forEach(pano => {
+    //     $("#gallery").append(`
+    //             <div id="scene_${pano.id}" class="gallery__item pos-${pano.id}" onclick="loadScene(this.id)">
+    //                 <img src="assets/images/amentites/pano-img/vtour/panos/${pano.id}.tiles/thumb.jpg" alt="${pano.title}" class="gallery__img">
+    //                 <div class="gallery__overlay"> ${pano.id}. ${pano.title}</div>
+    //             </div >
+    //         `)
+    // });
+
+    // $(".tab-2D").click(function() {
+    //     $(".gallery__item").hide();
+    //     images.forEach(img => {
+    //         $("#gallery").append(`
+    //             <div id="${img.id}" class="gallery__item1 pos-${img.id}" onclick="showImage(this.id)">
+    //                 <img src="assets/images/amentites/normal-img/${img.id}.jpg" alt="${img.title}" class="gallery__img">
+    //                 <div class="gallery__overlay">${img.id}. ${img.title}</div>
+    //             </div>
+    //         `)
+    //     });
+    // });
+
+
+
+    $(".next").click(function () {
+
+    })
+    $(".tutorial").click(function () {
+        // $(".overlay").fadeIn();
+        // $(".show-tutorial").fadeIn();
+        $(".overlay").fadeToggle();
+        $(".show-tutorial").fadeToggle();
+        $(".wrap-carousel").fadeOut();
+        $("#ground-carousel").fadeOut();
+        $(".carousel-ground2D").fadeOut();
+        $(".wrap-gallery").fadeOut();
+        $(".ground").fadeOut();
+        $(".select__item").fadeOut();
+        $(".menu__item").removeClass("active-item");
+    });
+    $(".tab-2D").click(function () {
+        $(".gallery__item").fadeOut();
+        $(".gallery__item1").fadeIn();
+        $("#gallery2D").show();
+        $(this).addClass("active");
+        $(this).parent().siblings().children("a").removeClass("active");
+    });
+
+    $(".tab-360").click(function () {
+        $(".gallery__item1").fadeOut();
+        $(".gallery__item").fadeIn();
+        $(".nav-tab-2D-folder").fadeOut();
+    });
+
+}); // jQuery
+
+
+
+
+
+
+// function showImage(name) {
+//     $(".wrap-gallery").fadeOut();
+//     $(".show-img").fadeIn();
+//     $(".show-img img").attr("src", `assets/images/amentites/normal-img/${name}.jpg`);
+// }
+
+function delayLoading() {
+    setTimeout(showLoading, 0);
+}
+
+function showLoading() {
+    $(".icon-loading").fadeOut();
+}
+
+function reset_selectbox() {
+    $('.select__showflat').val('0');
+    $('.select__arena').val('0');
+    $('.select__ground').val('0');
+    $('.select__showflat_2').val('0');
+    // active_showflat = false,
+    // active_arena = false,
+    // active_ground = false,
+    // active_showflat_2 = false;
+}
