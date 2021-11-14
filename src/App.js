@@ -3,11 +3,12 @@ import './App.css';
 import { Welcome } from './components/Welcome';
 import { Component, Vr } from './components/Vr';
 import { Vrt } from './components/Vrt';
+import { Home } from './components/home/Home';
 
 function App() {
   return (
     <div>
-      <Vr name="Hung.VS" />
+      <Home name="Hung.VS" />
     </div>
   );
 }
