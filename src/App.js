@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import { Welcome } from './components/Welcome';
-import { Vr } from './components/Vr';
+import { Component, Vr } from './components/Vr';
 import { Vrt } from './components/Vrt';
 
 function App() {
   return (
     <div>
-      <Vrt name="Sara" />
+      <Vr name="Hung.VS" />
     </div>
   );
 }
