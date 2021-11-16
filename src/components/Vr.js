@@ -39,7 +39,19 @@ export function Vr(props) {
 	  width: w,
 	  height: h 
     };
-	return <html>
+
+
+		// const menuBottomStyles={
+			
+		// 	height: "10%",
+    // position: "absolute",
+    // width: "80%",
+    // "margin-left": "10%", /** width: "80%" and "margin-left": "10%" centers the menu. */
+    // "background-color": "",
+    // "margin-top": "-10%"
+		// };
+	
+		return <html>
 		<head>
 			<title>Virtual tour</title>
 		</head>	
@@ -48,6 +60,13 @@ export function Vr(props) {
 			<iframe style={styles}  frameBorder="0"
 				src="https://momento360.com/e/u/8ff2cbd17f4b403fae68eead5a861766?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"
 			></iframe>
+			<section class="vrt-menu-bottom" width="50" height="1000" >
+	<ul>
+  <li><a href="#">OVERVIEW</a></li>
+  <li><a href="#">APARTMENT</a></li>
+  <li><a href="#">MAP</a></li>
+</ul>
+			</section>
 		</body>
 	</html>
 }

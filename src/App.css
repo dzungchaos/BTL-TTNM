@@ -1,3 +1,42 @@
+/* --- */
+/* VRT:  */
+
+.vrt-menu-bottom{
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+.vrt-menu-bottom ul {
+    list-style:none;
+    position:relative;
+    left:50%;
+
+}
+.vrt-menu-bottom li {
+float:left;
+position:relative;
+
+}
+
+#vrt-menu-bottom a{
+ text-decoration:none;
+    margin:10px;
+    background:red;
+    float:left;
+    border:2px outset blue;
+    color:#fff;
+    padding:2px 5px;
+    text-align:center;
+    white-space:nowrap;
+
+}
+
+#vrt-menu-bottom a:hover{ border:2px inset blue;color:red;background:#f2f2f2;}
+
+/* --- */
+
 .App {
   text-align: center;
 }
