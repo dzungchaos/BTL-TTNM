@@ -6,8 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
 import { Routes, Route, Link } from "react-router-dom";
-import Home from "./components/home/Home"
 import { Vr } from './components/Vr';
+
+import Overview from "./components/vrt/Overview"
+import Apartment from "./components/vrt/Apartment"
+import Map from "./components/vrt/Map"
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,9 +19,15 @@ ReactDOM.render(
 
 
 			  <Routes>
-        <Route path="/" element={<App/>} />
-        <Route path="vrt" element={<Vr/>} />
-      </Routes>	
+        <Route path="/" element={<App/>}/>
+
+				{/* II. Virtual tour routing:  */}
+        	<Route path="vrt" element={<Vr/>}>
+							<Route path="overview" element={<Overview/>} />
+							<Route path="apartment" element={<Apartment/>} />
+							<Route path="map" element={<Map/>} />
+				</Route>
+			</Routes>	
   </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

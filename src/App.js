@@ -4,12 +4,13 @@ import { Welcome } from './components/Welcome';
 import { Component, Vr } from './components/Vr';
 import { Vrt } from './components/Vrt';
 import Home from "./components/home/Home"
+import { Outlet } from 'react-router';
 
 function App() {
   return (
     <div>
-      <Home name="Hung.VS" />
-    </div>
+      <Home name="HustHome" />
+			</div>
   );
 }
 
