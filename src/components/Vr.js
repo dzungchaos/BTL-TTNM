@@ -2,45 +2,13 @@
 
 
 
-import { useState, useEffect } from 'react';
 import { Outlet } from 'react-router';
-import {Link} from "react-router-dom"
-
-function getWindowDimensions() {
-  const { innerWidth: width, innerHeight: height } = window;
-  return {
-    width,
-    height
-  };
-}
-
-export default function useWindowDimensions() {
-  const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
-
-  useEffect(() => {
-    function handleResize() {
-      setWindowDimensions(getWindowDimensions());
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  return windowDimensions;
-}
-
+import { Link } from 'react-router-dom';
 
 
 export function Vr(props) {
 //   return <h1>Hello, {props.name}</h1>;
 
-
-  const { height: h, width: w} = useWindowDimensions();
-
-     const styles = {
-	  width: w,
-	  height: h 
-    };
 
 
 		// const menuBottomStyles={
@@ -58,39 +26,44 @@ export function Vr(props) {
 			<title>Virtual tour</title>
 		</head>	
 		<body>
-			<div class="img-box"></div>	
-			<iframe style={styles}  frameBorder="0"
-				src="https://momento360.com/e/u/8ff2cbd17f4b403fae68eead5a861766?utm_campaign=embed&utm_source=other&heading=0&pitch=0&field-of-view=75&size=medium"
-			></iframe>
-			<section class="vrt-menu-bottom" width="50" height="1000" >
 
-<nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem"
-        }}
-      >
-        <Link to="overview">OVERVIEW</Link>  |{" "}
-        <Link to="apartment">APARTMENT</Link>
-        <Link to="map">MAP</Link>
-      </nav>
+		<Link to="overview">OVERVIEW</Link> 
 
-			</section>
-		</body>
+		</body> 
+
+<Apartment>
+
+</Apartment>
+
+<Link to="map">MAP</Link>
+<Link to="/vrt">VRT</Link>
 
 		<Outlet/>
 	</html>
 }
 
+const Apartment = (props) => {
+return <ul>
+  <li>
+APARTMENT	
+	</li>
+  <li><a href="/vrt/apartment/living-room">
+	Living room
+	</a></li>
+  <li><a href="/vrt/apartment/kitchen">
+Kitchen	
+	</a></li>
+  <li><a href="/vrt/apartment/bedroom">
+Bedroom	
+	
+	</a></li>
+  <li><a href="/vrt/apartment/bathroom">
 
-
-
-export const Component = () => {
-  const { height, width } = useWindowDimensions();
-
-  return (
-    <div>
-      width: {width} ~ height: {height}
-    </div>
-  );
+Bathroom
+	</a></li>
+</ul>
 }
+
+
+
+

@@ -9,8 +9,11 @@ import { Routes, Route, Link } from "react-router-dom";
 import { Vr } from './components/Vr';
 
 import Overview from "./components/vrt/Overview"
-import Apartment from "./components/vrt/Apartment"
 import Map from "./components/vrt/Map"
+import Kitchen from './components/vrt/apartment/Kitchen';
+import LivingRoom from './components/vrt/apartment/LivingRoom';
+import Bedroom from './components/vrt/apartment/Bedroom';
+import Bathroom from './components/vrt/apartment/Bathroom';
 
 
 ReactDOM.render(
@@ -24,7 +27,12 @@ ReactDOM.render(
 				{/* II. Virtual tour routing:  */}
         	<Route path="vrt" element={<Vr/>}>
 							<Route path="overview" element={<Overview/>} />
-							<Route path="apartment" element={<Apartment/>} />
+							<Route path="apartment" >
+								<Route path="living-room" element={<LivingRoom/>} />
+								<Route path="kitchen" element={<Kitchen/>} />
+								<Route path="bedroom" element={<Bedroom/>} />
+								<Route path="bathroom" element={<Bathroom/>} />
+							</Route>
 							<Route path="map" element={<Map/>} />
 				</Route>
 			</Routes>	
