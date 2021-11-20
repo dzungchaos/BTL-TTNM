@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 import { Routes, Route, Link } from "react-router-dom";
 import Home from "./components/home/Home"
+import { Vr } from './components/Vr';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,10 +15,10 @@ ReactDOM.render(
 
 
 			  <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="home" element={<Home/>} />
+        <Route path="/" element={<App/>} />
+        <Route path="vrt" element={<Vr/>} />
       </Routes>	
-  </BrowserRouter>,
+  </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
