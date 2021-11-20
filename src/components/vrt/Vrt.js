@@ -6,7 +6,7 @@ import { Outlet } from 'react-router';
 import { Link } from 'react-router-dom';
 
 
-export function Vr(props) {
+export function Vrt(props) {
 //   return <h1>Hello, {props.name}</h1>;
 
 

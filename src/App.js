@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Welcome } from './components/Welcome';
-import { Component, Vr } from './components/Vr';
-import { Vrt } from './components/Vrt';
+import { Component, Vrt } from './components/vrt/Vrt';
 import Home from "./components/home/Home"
 import { Outlet } from 'react-router';
 

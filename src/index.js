@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 
 import { Routes, Route, Link } from "react-router-dom";
-import { Vr } from './components/Vr';
+import { Vrt } from './components/vrt/Vrt';
 
 import Overview from "./components/vrt/Overview"
 import Map from "./components/vrt/Map"
@@ -25,7 +25,7 @@ ReactDOM.render(
         <Route path="/" element={<App/>}/>
 
 				{/* II. Virtual tour routing:  */}
-        	<Route path="vrt" element={<Vr/>}>
+        	<Route path="vrt" element={<Vrt/>}>
 							<Route path="overview" element={<Overview/>} />
 							<Route path="apartment" >
 								<Route path="living-room" element={<LivingRoom/>} />
