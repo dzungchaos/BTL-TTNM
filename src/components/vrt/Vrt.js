@@ -17,41 +17,35 @@ export function Vrt(props) {
   // };
 
   return (
-    <div>
-      <Link class="float" to="overview">OVERVIEW</Link>
- 
-      {/* Comment here 
-	  <Apartment class="float"></Apartment>
-	  <Link class="float" to="map">MAP</Link>
-      <Link class="float" to="/vrt">VRT</Link>
-      
-	  */}
-	  <Outlet />
+    <div class="">
+      <Apartment></Apartment>
+      <Link style={{left:"38.5%"}} class="float" to="overview">OVERVIEW</Link>
+	  <Link style={{left:"61.5%"}} class="float" to="map">MAP</Link>
+      <Outlet />
     </div>
   );
 }
 
 const Apartment = (props) => {
   return (
-    <ul>
-      <li>APARTMENT</li>
-
-      {/* Comment here 
-  <li><a href="/vrt/apartment/living-room">
-	Living room
-	</a></li>
-  <li><a href="/vrt/apartment/kitchen">
-Kitchen	
-	</a></li>
-  <li><a href="/vrt/apartment/bedroom">
-Bedroom	
-	
-	</a></li>
-  <li><a href="/vrt/apartment/bathroom">
-
-Bathroom
-	</a></li>
-*/}
+    <ul class="float">
+      <li style={{background: "none"}}>
+        <a >APARTMENT</a>
+        <ul>
+          <li>
+            <a href="/vrt/apartment/living-room">LIVING ROOM</a>{" "}
+          </li>
+          <li>
+            <a href="/vrt/apartment/kitchen">KITCHEN</a>
+          </li>
+          <li>
+            <a href="/vrt/apartment/bedroom">BEDROOM</a>
+          </li>
+          <li>
+            <a href="/vrt/apartment/bathroom">BATHROOM</a>
+          </li>
+        </ul>
+      </li>
     </ul>
   );
 };
