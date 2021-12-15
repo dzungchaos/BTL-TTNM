@@ -1,0 +1,257 @@
+{
+	"Header": {
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+	},
+	"About": {
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"Why": [
+			"Lorem ipsum dolor",
+			"Tempor incididunt",
+			"Lorem ipsum dolor",
+			"Incididunt ut labore"
+		],
+		"Why2": [
+			"Aliquip ex ea commodo",
+			"Lorem ipsum dolor",
+			"Exercitation ullamco",
+			"Lorem ipsum dolor"
+		]
+	},
+	"Gallery": [
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/01-large.jpg",
+			"smallImage": "img/portfolio/01-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/02-large.jpg",
+			"smallImage": "img/portfolio/02-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/03-large.jpg",
+			"smallImage": "img/portfolio/03-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/04-large.jpg",
+			"smallImage": "img/portfolio/04-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/05-large.jpg",
+			"smallImage": "img/portfolio/05-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/06-large.jpg",
+			"smallImage": "img/portfolio/06-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/07-large.jpg",
+			"smallImage": "img/portfolio/07-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/08-large.jpg",
+			"smallImage": "img/portfolio/08-small.jpg"
+		},
+		{
+			"title": "Project Title",
+			"largeImage": "img/portfolio/09-large.jpg",
+			"smallImage": "img/portfolio/09-small.jpg"
+		}
+	],
+	"Services": [
+		{
+			"icon": "fa fa-wordpress",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-cart-arrow-down",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-cloud-download",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-language",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-plane",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-pie-chart",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		}
+	],
+	"Testimonials": [
+		{
+			"img": "img/testimonials/01.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "John Doe"
+		},
+		{
+			"img": "img/testimonials/02.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "Johnathan Doe"
+		},
+		{
+			"img": "img/testimonials/03.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "John Doe"
+		},
+		{
+			"img": "img/testimonials/04.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "Johnathan Doe"
+		},
+		{
+			"img": "img/testimonials/05.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "John Doe"
+		},
+		{
+			"img": "img/testimonials/06.jpg",
+			"text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+			"name": "Johnathan Doe"
+		}
+	],
+	"Team": [
+		{
+			"img": "img/team/01.jpg",
+			"name": "John Doe",
+			"job": "Director"
+		},
+		{
+			"img": "img/team/02.jpg",
+			"name": "Mike Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/03.jpg",
+			"name": "Jane Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/04.jpg",
+			"name": "Karen Doe",
+			"job": "Project Manager"
+		}
+	],
+	"News": [
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_12/Screen%20Shot%202021-12-07%20at%2008_1638842379.png?itok=KX5bolsx",
+			"name": "Title news 1",
+			"job": "Summary content of news 1..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/anh-thay-1637502693910745347497_1637730655.png?itok=RjqyHywd",
+			"name": "Title news 2",
+			"job": "Summary content of news 2..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/viber_image_2021-11-08_14-57-40-010_1636358396.png?itok=HhYSImqQ",
+			"name": "Title news 3",
+			"job": "Summary content of news 3..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/3_1636360386.jpg?itok=fp88ehmo",
+			"name": "Title news 4",
+			"job": "Summary content of news 4..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/cho-nhung-cu-bat-nhay-thi-truong-bds-phia-nam-dip-cuoi-nam-1_1636178983.jpeg?itok=oqtuOSzQ",
+			"name": "Title news 5",
+			"job": "Summary content of news 5..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/photo-1-16361117948341082154210-50-0-786-1179-crop-1636111825287-63771737004760_1636176033.jpeg?itok=P_Xcyn-Y",
+			"name": "Title news 6",
+			"job": "Summary content of news 6..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/anh-1-1407_1636001887.jpeg?itok=c2OCPseV",
+			"name": "Title news 7",
+			"job": "Summary content of news 7..."
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_10/Landmark%2081%20%E2%80%93%20Ky%CC%80%20quan%20%C4%91o%CC%82%20thi%CC%A3%20mang%20tra%CC%81i%20tim%20Vie%CC%A3%CC%82t%20Nam_1635420272.png?itok=NIku3uEM",
+			"name": "Title news 8",
+			"job": "Summary content of news 8..."
+		}
+	],
+	"Projects": [
+		{
+			"img": "img/project/project-1.jpeg",
+			"name": "Hust Homes Ocean Park",
+			"job": "Gia Lâm - Hà Nội"
+		},
+		{
+			"img": "img/project/project-2.jpg",
+			"name": "Hust Homes Smart City",
+			"job": "Nam Thăng Long - Hà Nội"
+		},
+		{
+			"img": "img/project/project-3.jpg",
+			"name": "Hust Home Dream City",
+			"job": "Văn Giang - Hưng Yên"
+		},
+		{
+			"img": "img/project/project-6.jpg",
+			"name": "Hust Home Grand Park",
+			"job": "Q2 - Thành Phố Hồ Chí Minh"
+		},
+		{
+			"img": "img/project/project-5.jpg",
+			"name": "Hust Home Grand Park",
+			"job": "Q2 - Thành Phố Hồ Chí Minh"
+		},
+		{
+			"img": "img/project/project-4.jpg",
+			"name": "Hust Home Dream City",
+			"job": "Văn Giang - Hưng Yên"
+		}
+	],
+	"Contact": {
+		"address": "4321 California St, San Francisco, CA 12345 ",
+		"phone": "+1 123 456 1234",
+		"email": "info@company.com",
+		"facebook": "fb.com",
+		"twitter": "twitter.com",
+		"youtube": "youtube.com"
+	},
+	"Features": [
+		{
+			"icon": "fa fa-comments-o",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-bullhorn",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-group",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-magic",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		}
+	]
+}

@@ -1,16 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-import { Welcome } from './components/Welcome';
-import { Component, Vrt } from './components/vrt/Vrt';
-import Home from "./components/home/Home"
-import { Outlet } from 'react-router';
+import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import SmoothScroll from "smooth-scroll";
+import "./App.css";
+import { Footer } from "./components/common/Footer";
+import { Navigation } from "./components/common/Navigation";
+import Notfound from "./components/common/Notfound";
+import HomePage from "./components/home/HomePage";
+import Introduce from "./components/home/Introduce";
+import Transaction from "./components/home/Transaction";
+import JsonData from "./data/data.json";
+
+export const scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true,
+});
 
 function App() {
-  return (
-    <div>
-      <Home name="HustHome" />
-			</div>
-  );
+	const [landingPageData, setLandingPageData] = useState({});
+	useEffect(() => {
+		setLandingPageData(JsonData);
+	}, []);
+
+	return (
+		<div>
+			{/* nav bar */}
+			<Navigation />
+
+			{/* main content */}
+			<Routes>
+				<Route path='/' element={<HomePage />} />
+				<Route path='/introduce' element={<Introduce />} />
+				<Route path='/transaction/*' element={<Transaction />} />
+
+				<Route path='*' element={<Notfound />} />
+			</Routes>
+
+			{/* footer */}
+			<Footer data={landingPageData.Contact} />
+		</div>
+	);
 }
 
 // function App() {

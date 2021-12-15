@@ -1,77 +1,97 @@
 /* --- */
 /* VRT:  */
 
-.vrt-menu-bottom{
-    float:right;
-    position:relative;
-    left:-50%;
-    text-align:left;
+.vrt-menu-bottom {
+	float: right;
+	position: relative;
+	left: -50%;
+	text-align: left;
 }
 
 .vrt-menu-bottom ul {
-    list-style:none;
-    position:relative;
-    left:50%;
-
+	list-style: none;
+	position: relative;
+	left: 50%;
 }
 .vrt-menu-bottom li {
-float:left;
-position:relative;
-
+	float: left;
+	position: relative;
 }
 
-#vrt-menu-bottom a{
- text-decoration:none;
-    margin:10px;
-    background:red;
-    float:left;
-    border:2px outset blue;
-    color:#fff;
-    padding:2px 5px;
-    text-align:center;
-    white-space:nowrap;
-
+#vrt-menu-bottom a {
+	text-decoration: none;
+	margin: 10px;
+	background: red;
+	float: left;
+	border: 2px outset blue;
+	color: #fff;
+	padding: 2px 5px;
+	text-align: center;
+	white-space: nowrap;
 }
 
-#vrt-menu-bottom a:hover{ border:2px inset blue;color:red;background:#f2f2f2;}
+#vrt-menu-bottom a:hover {
+	border: 2px inset blue;
+	color: red;
+	background: #f2f2f2;
+}
 
 /* --- */
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#features {
+		padding: 20px;
+		width: 111%;
+	}
+	#about,
+	#services,
+	#testimonials,
+	#team,
+	#contact,
+	#footer {
+		width: 111%;
+	}
+
+	#portfolio {
+		width: 110%;
+	}
 }
