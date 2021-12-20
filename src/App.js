@@ -5,9 +5,12 @@ import "./App.css";
 import { Footer } from "./components/common/Footer";
 import { Navigation } from "./components/common/Navigation";
 import Notfound from "./components/common/Notfound";
+import DetailProject from "./components/home/DetailProject";
 import HomePage from "./components/home/HomePage";
 import Introduce from "./components/home/Introduce";
+import ProjectSearch from "./components/home/ProjectSearch";
 import Transaction from "./components/home/Transaction";
+import LoaderScreen from "./components/loaderScreen";
 import JsonData from "./data/data.json";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -17,26 +20,46 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 function App() {
 	const [landingPageData, setLandingPageData] = useState({});
+	const [displayLoader, setDisplayLoader] = useState("block");
+	const [displayContent, setDisplayContent] = useState("none");
+
 	useEffect(() => {
 		setLandingPageData(JsonData);
 	}, []);
 
+	// fake loader
+	setTimeout(function () {
+		setDisplayLoader("none");
+		// setDisplayContent("block");
+	}, 1500);
+
+	setTimeout(function () {
+		// setDisplayLoader("none");
+		setDisplayContent("block");
+	}, 1400);
+
 	return (
 		<div>
 			{/* nav bar */}
-			<Navigation />
+
+			<LoaderScreen display={displayLoader} />
 
 			{/* main content */}
-			<Routes>
-				<Route path='/' element={<HomePage />} />
-				<Route path='/introduce' element={<Introduce />} />
-				<Route path='/transaction/*' element={<Transaction />} />
+			<div style={{ display: displayContent }}>
+				<Navigation />
+				<Routes>
+					<Route path='/' element={<HomePage />} />
+					<Route path='/introduce' element={<Introduce />} />
+					<Route path='/transaction/*' element={<Transaction />} />
+					<Route path='/search/' element={<ProjectSearch />} />
+					<Route path='/detail-project/' element={<DetailProject />} />
 
-				<Route path='*' element={<Notfound />} />
-			</Routes>
+					<Route path='*' element={<Notfound />} />
+				</Routes>
 
-			{/* footer */}
-			<Footer data={landingPageData.Contact} />
+				{/* footer */}
+				<Footer data={landingPageData.Contact} />
+			</div>
 		</div>
 	);
 }

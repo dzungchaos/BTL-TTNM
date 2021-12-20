@@ -1,6 +1,7 @@
 {
 	"Header": {
-		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum.",
+		"searching": "Tìm kiếm các sản phẩm phù hợp với nhu cầu của bạn."
 	},
 	"About": {
 		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -222,6 +223,40 @@
 			"img": "img/project/project-4.jpg",
 			"name": "Hust Home Dream City",
 			"job": "Văn Giang - Hưng Yên"
+		}
+	],
+	"Utilities": [
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/vincom-plaza-long-bien.jpg?itok=rYJBkeTM",
+			"name": "Trung tâm thương mại"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/hinh-anh-tong-quan-Vinhomes-Metropolis-du-an-dang-cap-bac-nhat-tai-trai-tim-thu-do-so-12_1626076614.jpeg?itok=lIIbPdCL",
+			"name": "Trường học liên cấp "
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/tien-ich-be-boi-vinhomes-symphony.jpg?itok=XfYU4KPa",
+			"name": "Bể bơi ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-vinhomes-symphony-chinh-thuc-2-2-1024x571.jpg?itok=3EXKBYQg",
+			"name": "Thể thao ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-vinhomes-symphony-chinh-thuc-5-1-1024x574.jpg?itok=qAj8VrxK",
+			"name": "Sân chơi ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/4.jpg?itok=rgZNhEuY",
+			"name": "Vườn nướng BBQ"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-noi-khu-vinhomes-symphony_0.jpg?itok=eFGk9cS3",
+			"name": "Quảng trường vui chơi"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/Vinhomes-New-Center-4.jpg?itok=uhTJ345C",
+			"name": "Khu vui chơi trẻ em"
 		}
 	],
 	"Contact": {
