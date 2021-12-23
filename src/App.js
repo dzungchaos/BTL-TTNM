@@ -6,6 +6,7 @@ import { Footer } from "./components/common/Footer";
 import { Navigation } from "./components/common/Navigation";
 import Notfound from "./components/common/Notfound";
 import DetailProject from "./components/home/DetailProject";
+import Project from "./components/home/Project/Projects";
 import HomePage from "./components/home/HomePage";
 import Introduce from "./components/home/Introduce";
 import ProjectSearch from "./components/home/ProjectSearch";
@@ -53,6 +54,7 @@ function App() {
 					<Route path='/transaction/*' element={<Transaction />} />
 					<Route path='/search/' element={<ProjectSearch />} />
 					<Route path='/detail-project/' element={<DetailProject />} />
+					<Route path='/projects/' element={<Project />} />
 
 					<Route path='*' element={<Notfound />} />
 				</Routes>
