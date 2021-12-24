@@ -38,13 +38,13 @@ export const Navigation = (props) => {
 								GIỚI THIỆU
 							</Link>
 						</li>
-						<li className='main-menu'>
+						{/* <li className='main-menu'>
 							<a style={{ cursor: "pointer" }} className='page-scroll'>
 								GIAO DỊCH
-							</a>
+							</a> */}
 
 							{/* sub menu */}
-							<ul class='sub-menu'>
+							{/* <ul class='sub-menu'>
 								<li className='sub-item '>
 									<Link to='/transaction/buy' className='page-scroll'>
 										MUA SẢN PHẨM
@@ -62,7 +62,7 @@ export const Navigation = (props) => {
 									</Link>
 								</li>
 							</ul>
-						</li>
+						</li> */}
 
 						<li>
 							<Link to='/projects' className='page-scroll'>
