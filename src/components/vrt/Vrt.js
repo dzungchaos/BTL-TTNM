@@ -2,6 +2,7 @@
 
 import { Outlet } from "react-router";
 import { Link } from "react-router-dom";
+import Chat from "./Chat";
 
 export function Vrt(props) {
   //   return <h1>Hello, {props.name}</h1>;
@@ -18,6 +19,7 @@ export function Vrt(props) {
 
   return (
     <div class="">
+		<Chat></Chat>
       <Apartment></Apartment>
       <Link style={{left:"38.5%"}} class="float" to="overview">OVERVIEW</Link>
 	  <Link style={{left:"61.5%"}} class="float" to="map">MAP</Link>
