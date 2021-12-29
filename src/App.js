@@ -15,6 +15,9 @@ import LoaderScreen from "./components/loaderScreen";
 import JsonData from "./data/data.json";
 import Chat from "./components/common/Chat";
 import Project from "./components/home/Project";
+import News from "./components/home/News/News";
+import Support from "./components/home/Support/Support";
+import NewsRead from "./components/home/News/NewsRead";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
@@ -67,6 +70,9 @@ function App() {
 					<Route path='/search/' element={<ProjectSearch />} />
 					<Route path='/project/' element={<Project />} />
 					<Route path='/detail-project/' element={<DetailProject />} />
+					<Route path='/news/' element={<News />} />
+					<Route path='/contact/' element={<Support />} />
+					<Route path='/news-detail/' element={<NewsRead />} />
 
 					<Route path='*' element={<Notfound />} />
 				</Routes>

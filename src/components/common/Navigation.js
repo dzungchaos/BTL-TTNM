@@ -71,14 +71,14 @@ export const Navigation = (props) => {
 						</li>
 
 						<li className='main-menu'>
-							<a
+							<Link
 								tyle={{ cursor: "pointer" }}
 								to='/news'
 								className='page-scroll'>
 								TIN TỨC
-							</a>
+							</Link>
 							{/* sub menu */}
-							<ul class='sub-menu'>
+							{/* <ul class='sub-menu'>
 								<li className='sub-item '>
 									<Link to='/news/news1' className='page-scroll'>
 										TIN TỨC 1
@@ -95,7 +95,7 @@ export const Navigation = (props) => {
 										TIN TỨC 3
 									</Link>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
 
 						<li>

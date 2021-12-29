@@ -1,83 +1,83 @@
-.contact_info_wrapper {
-    font-family: 'Montserrat', sans-serif;
+.page_support .contact_info_wrapper {
+	font-family: "Montserrat", sans-serif;
 }
 
-h1 {
-    text-align: center;
+.support-title h1 {
+	text-align: center;
 }
 
 .page_support {
-    /* background-image: url("realestate.jpg"); */
+	/* background-image: url("realestate.jpg"); */
 }
 
-.container {
-    display: flex;
-    flex-wrap: nowrap;
-    height: 600px;
-    justify-content: space-around;
-    /* margin: 30px; */
-    padding-bottom: 50px;
-    /* border-radius: 10px; */
-    background-color: #f5f1e6;
+.page_support .container {
+	display: flex;
+	flex-wrap: nowrap;
+	height: 600px;
+	justify-content: space-around;
+	/* margin: 30px; */
+	padding-bottom: 50px;
+	/* border-radius: 10px; */
+	/* background-color: #f5f1e6; */
 }
 
-.column {
-    float: left;
-    width: 360px;
-    height: 600px;
-    border: solid 1px black;
-    text-align: left;
-    border-radius: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: antiquewhite;
+.page_support .column {
+	float: left;
+	width: 360px;
+	height: 600px;
+	border: solid 1px black;
+	text-align: left;
+	border-radius: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: antiquewhite;
 }
 
-.column_title {
-    margin-top: 0px;
-    padding-top: 12px;
-    text-align: center;
-    align-self: center;
-    height: 50px;
-    border-bottom: solid .5px grey;
-    background-color: #e8ac5c;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+.page_support .column_title {
+	margin-top: 0px;
+	padding-top: 12px;
+	text-align: center;
+	align-self: center;
+	height: 50px;
+	border-bottom: solid 0.5px grey;
+	background-color: #e8ac5c;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
-.column_content {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+.page_support .column_content {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-select {
-    margin: auto;
-    width: 300px;
-    height: 50px;
-    border-radius: 10px;
+.page_support select {
+	margin: auto;
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
 }
 
-.row_mb5 {
-    padding-bottom: 10px;
+.page_support .row_mb5 {
+	padding-bottom: 10px;
 }
 
-.label_info {
-    font-size: 15px;
-    font-weight: bold;
-    padding-left: 5px;
+.page_support .label_info {
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 5px;
 }
 
-.parag_info {
-    font-size: 15px;
-    padding-left: 25px;
-    margin-top: 0px;
+.page_support .parag_info {
+	font-size: 15px;
+	padding-left: 25px;
+	margin-top: 0px;
 }
 
-a {
-    text-decoration: none;
+.page_support a {
+	text-decoration: none;
 }
 
-.iconAwesome {
-    color: black;
+.page_support .iconAwesome {
+	color: black;
 }
