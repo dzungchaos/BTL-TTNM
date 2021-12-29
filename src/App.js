@@ -13,6 +13,7 @@ import ProjectSearch from "./components/home/ProjectSearch";
 import Transaction from "./components/home/Transaction";
 import LoaderScreen from "./components/loaderScreen";
 import JsonData from "./data/data.json";
+import Chat from "./components/common/Chat";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
@@ -23,6 +24,11 @@ function App() {
 	const [landingPageData, setLandingPageData] = useState({});
 	const [displayLoader, setDisplayLoader] = useState("block");
 	const [displayContent, setDisplayContent] = useState("none");
+	const messages = ["Chao ban, chung toi co the ho tro gi cho ban?", "Minh dang muon mua nha", "Chung toi se ho tro ban", "Cam on cong ty"];
+
+	const getMessage = (message) => {
+		console.log(message);
+	}
 
 	useEffect(() => {
 		setLandingPageData(JsonData);
@@ -58,7 +64,7 @@ function App() {
 
 					<Route path='*' element={<Notfound />} />
 				</Routes>
-
+				<Chat messages={messages} getMessage={getMessage} />
 				{/* footer */}
 				<Footer data={landingPageData.Contact} />
 			</div>
