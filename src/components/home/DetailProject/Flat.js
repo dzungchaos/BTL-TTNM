@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom";
+
 export const Flat = (props) => {
 	return (
-		<div id='about'>
+		<div id='about' style={{ backgroundColor: "#fff" }}>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-xs-12 col-md-6'>
@@ -15,6 +17,17 @@ export const Flat = (props) => {
 								thương mại, du lịch và vui chơi giải trí đẳng cấp và hiện đại
 								bậc nhất thành phố.
 							</p>
+							<div style={{ marginTop: "25px", textAlign: "center" }}>
+								<Link
+									to='/vrt/overview'
+									style={{
+										borderRadius: "510px",
+										padding: "10px 34px",
+									}}
+									className='btn btn-custom btn-lg page-scroll'>
+									Virtual Tour
+								</Link>
+							</div>
 						</div>
 					</div>
 					<div className='col-xs-12 col-md-6'>

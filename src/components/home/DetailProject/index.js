@@ -4,7 +4,7 @@ import { DetailProjectDemo } from "./DetailProjectDemo";
 import { Flat } from "./Flat";
 import { Position } from "./Position";
 import { Utilities } from "./Utilities";
-import VirtualTuor from "./VirtualTuor";
+import VirtualTour from "./VirtualTour";
 
 const DetailProject = () => {
 	const [landingPageData, setLandingPageData] = useState({});
@@ -13,7 +13,7 @@ const DetailProject = () => {
 	}, []);
 	return (
 		<div style={{ marginTop: "50px" }}>
-			<VirtualTuor />
+			{/* <VirtualTour /> */}
 			<DetailProjectDemo />
 			<Flat />
 			<Position />

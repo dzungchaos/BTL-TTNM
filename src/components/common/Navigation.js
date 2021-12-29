@@ -47,10 +47,10 @@ export const Navigation = (props) => {
 							<ul class='sub-menu'>
 								<li className='sub-item '>
 									<Link to='/transaction/buy' className='page-scroll'>
-										MUA SẢN PHẨM
+										KÝ GỬI CĂN HỘ
 									</Link>
 								</li>
-								<li className='sub-item'>
+								{/* <li className='sub-item'>
 									<Link to='/transaction/sale' className='page-scroll'>
 										BÁN SẢN PHẨM
 									</Link>
@@ -60,12 +60,12 @@ export const Navigation = (props) => {
 									<Link to='/transaction/rent' className='page-scroll'>
 										CHO THUÊ
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 						</li>
 
 						<li>
-							<Link to='/projects' className='page-scroll'>
+							<Link to='/project' className='page-scroll'>
 								DỰ ÁN
 							</Link>
 						</li>

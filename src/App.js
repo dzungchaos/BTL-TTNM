@@ -14,6 +14,7 @@ import Transaction from "./components/home/Transaction";
 import LoaderScreen from "./components/loaderScreen";
 import JsonData from "./data/data.json";
 import Chat from "./components/common/Chat";
+import Project from "./components/home/Project";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
@@ -64,7 +65,7 @@ function App() {
 					<Route path='/introduce' element={<Introduce />} />
 					<Route path='/transaction/*' element={<Transaction />} />
 					<Route path='/search/' element={<ProjectSearch />} />
-					{/* <Route path='/project/' element={<Project />} /> */}
+					<Route path='/project/' element={<Project />} />
 					<Route path='/detail-project/' element={<DetailProject />} />
 
 					<Route path='*' element={<Notfound />} />
@@ -99,6 +100,3 @@ function App() {
 // }
 
 export default App;
-
-
-

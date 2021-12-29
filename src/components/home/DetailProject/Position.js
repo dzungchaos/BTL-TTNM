@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Position = (props) => {
 	return (
 		<div id='about' style={{ backgroundColor: "#fff" }}>
@@ -29,6 +31,15 @@ export const Position = (props) => {
 								Bắc Ninh, Bắc Giang, Hưng Yên, Hải Dương, Hải Phòng…
 							</p>
 						</div>
+						<Link
+							to='/vrt/overview'
+							style={{
+								borderRadius: "510px",
+								padding: "10px 34px",
+							}}
+							className='btn btn-custom btn-lg page-scroll'>
+							Virtual Tour
+						</Link>
 					</div>
 				</div>
 			</div>
