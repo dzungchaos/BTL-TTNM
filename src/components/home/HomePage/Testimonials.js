@@ -12,7 +12,6 @@ export const Testimonials = (props) => {
 								<div key={`${d.name}-${i}`} className='col-md-4'>
 									<div className='testimonial'>
 										<div className='testimonial-image'>
-											{" "}
 											<img src={d.img} alt='' />{" "}
 										</div>
 										<div className='testimonial-content'>

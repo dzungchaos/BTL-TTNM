@@ -24,11 +24,16 @@ function App() {
 	const [landingPageData, setLandingPageData] = useState({});
 	const [displayLoader, setDisplayLoader] = useState("block");
 	const [displayContent, setDisplayContent] = useState("none");
-	const messages = ["Chao ban, chung toi co the ho tro gi cho ban?", "Minh dang muon mua nha", "Chung toi se ho tro ban", "Cam on cong ty"];
+	const messages = [
+		"Chao ban, chung toi co the ho tro gi cho ban?",
+		"Minh dang muon mua nha",
+		"Chung toi se ho tro ban",
+		"Cam on cong ty",
+	];
 
 	const getMessage = (message) => {
 		console.log(message);
-	}
+	};
 
 	useEffect(() => {
 		setLandingPageData(JsonData);

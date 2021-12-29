@@ -20,47 +20,47 @@
 	},
 	"Gallery": [
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/01-large.jpg",
 			"smallImage": "img/portfolio/01-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/02-large.jpg",
 			"smallImage": "img/portfolio/02-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/03-large.jpg",
 			"smallImage": "img/portfolio/03-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/04-large.jpg",
 			"smallImage": "img/portfolio/04-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/05-large.jpg",
 			"smallImage": "img/portfolio/05-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/06-large.jpg",
 			"smallImage": "img/portfolio/06-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/07-large.jpg",
 			"smallImage": "img/portfolio/07-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/08-large.jpg",
 			"smallImage": "img/portfolio/08-small.jpg"
 		},
 		{
-			"title": "Project Title",
+			"title": "",
 			"largeImage": "img/portfolio/09-large.jpg",
 			"smallImage": "img/portfolio/09-small.jpg"
 		}
@@ -99,17 +99,17 @@
 	],
 	"Partners": [
 		{
-			"icon": "img/partners/ncb.jpg",
+			"icon": "img/partnres/ncb.jpg",
 			"name": "Ngân hàng Quốc dân NCB",
 			"text": "Sự hợp tác lâu dài HustHome và NCB mang lại cho quý cư dân nhiều tiện ích đặc biệt."
 		},
 		{
-			"icon": "img/partners/ntv.png",
+			"icon": "img/partnres/ntv.png",
 			"name": "Công ty Nội thất Việt",
 			"text": "Với những sản phẩm nội thất phong phú, đa dạng phong cách."
 		},
 		{
-			"icon": "img/partners/udic.jpg",
+			"icon": "img/partnres/udic.jpg",
 			"name": "Công ty đầu tư phát triển hạ tầng",
 			"text": "Sự kết hợp của HustHome và UDIC đưa ra được tầm nhìn chiến lược tiện ích cho khách hàng."
 		}
@@ -117,18 +117,33 @@
 	"Testimonials": [
 		{
 			"img": "img/testimonials/01.jpg",
-			"text": "\"Mình rất hài lòng khi sinh sống ở đây, các căn hộ ở đây được thiết kế cách âm không gây ra ồn ào khó chịu cho hàng xóm, mọi người ở đây đều rất hoà đồng và vui tính không bao giờ mình chứng kiến cảnh cãi vã, gây sự.\"",
+			"text": "\"Mình rất hài lòng khi sinh sống ở đây, các căn hộ ở đây được thiết kế cách âm không gây ra ồn ào khó chịu cho hàng xóm, mọi người ở đây đều rất hoà đồng và vui tính.\"",
 			"name": "Anh Phạm Nhật Hoàng, 32 tuổi"
 		},
 		{
 			"img": "img/testimonials/04.jpg",
-			"text": "\"Gia đình tôi trước đây từng sinh sống ở Hạ Đình, đó là một môi trường sinh sống khá phức tạp, dân trí trình độ thấp, khu vực không an ninh về đêm, từ ngày chuyển đến đây chất lượng cuộc sống được cải thiện rất nhiều\"",
+			"text": "\"Gia đình tôi trước đây từng sinh sống ở Hạ Đình, đó là một môi trường sinh sống khá phức tạp, từ ngày chuyển đến đây chất lượng cuộc sống được cải thiện rất nhiều.\"",
 			"name": "Chị Trần Huyền Ngọc, 29 tuổi"
 		},
 		{
 			"img": "img/testimonials/06.jpg",
-			"text": "\"Khi đến ở khu đô thị Husthomes tôi cảm thấy rất vui vì đã tìm một nơi cho bố mẹ sinh sống yên tĩnh, an toàn về an ninh, ở đây có khuôn viên rộng và những khu vui chơi cho trẻ nhỏ\"",
+			"text": "\"Khi đến ở khu đô thị Husthomes tôi cảm thấy rất vui vì đã tìm một nơi cho bố mẹ sinh sống yên tĩnh, an toàn về an ninh, ở đây có khuôn viên rộng và những khu vui chơi.\"",
 			"name": "Bà Trần Khánh Ngọc- Hưu trí "
+		},
+		{
+			"img": "img/testimonials/03.jpg",
+			"text": "\"Gia đình tôi trước đây từng sinh sống ở Hạ Đình, đó là một môi trường sinh sống khá phức tạp, từ ngày chuyển đến đây chất lượng cuộc sống được cải thiện rất nhiều.\"",
+			"name": "Chị Trần Huyền Ngọc, 29 tuổi"
+		},
+		{
+			"img": "img/testimonials/02.jpg",
+			"text": "\"Khi đến ở khu đô thị Husthomes tôi cảm thấy rất vui vì đã tìm một nơi cho bố mẹ sinh sống yên tĩnh, an toàn về an ninh, ở đây có khuôn viên rộng và những khu vui chơi.\"",
+			"name": "Bà Trần Khánh Ngọc- Hưu trí "
+		},
+		{
+			"img": "img/testimonials/05.jpg",
+			"text": "\"Mình rất hài lòng khi sinh sống ở đây, các căn hộ ở đây được thiết kế cách âm không gây ra ồn ào khó chịu cho hàng xóm, mọi người ở đây đều rất hoà đồng và vui tính.\"",
+			"name": "Anh Phạm Nhật Hoàng, 32 tuổi"
 		}
 	],
 	"Team": [
@@ -289,6 +304,23 @@
 			"icon": "fa fa-magic",
 			"title": "Lorem ipsum",
 			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		}
+	],
+	"Prizes": [
+		{
+			"img": "img/prizes/prize1.jpg",
+			"title": "Công trình tiết kiệm tài nguyên EDGE",
+			"text": "Được UNESCO công nhận vào năm 2014"
+		},
+		{
+			"img": "img/prizes/prize2.jpg",
+			"title": "Bảng vinh danh “Gia tộc doanh nhân” ",
+			"text": "Được người dùng Việt Nam bình chọn năm 2014"
+		},
+		{
+			"img": "img/prizes/prize3.jpg",
+			"title": "Top 100 sản phẩm, dịch vụ tốt",
+			"text": "Công trình xanh, sử dụng tài nguyên hiệu quả"
 		}
 	]
 }
