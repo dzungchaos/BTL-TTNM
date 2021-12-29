@@ -8,6 +8,7 @@ import Notfound from "./components/common/Notfound";
 import DetailProject from "./components/home/DetailProject";
 import HomePage from "./components/home/HomePage";
 import Introduce from "./components/home/Introduce";
+// import Project from "./components/home/Project";
 import ProjectSearch from "./components/home/ProjectSearch";
 import Transaction from "./components/home/Transaction";
 import LoaderScreen from "./components/loaderScreen";
@@ -24,11 +25,16 @@ function App() {
 	const [landingPageData, setLandingPageData] = useState({});
 	const [displayLoader, setDisplayLoader] = useState("block");
 	const [displayContent, setDisplayContent] = useState("none");
-	const messages = ["Chao ban, chung toi co the ho tro gi cho ban?", "Minh dang muon mua nha", "Chung toi se ho tro ban", "Cam on cong ty"];
+	const messages = [
+		"Chao ban, chung toi co the ho tro gi cho ban?",
+		"Minh dang muon mua nha",
+		"Chung toi se ho tro ban",
+		"Cam on cong ty",
+	];
 
 	const getMessage = (message) => {
 		console.log(message);
-	}
+	};
 
 	useEffect(() => {
 		setLandingPageData(JsonData);
@@ -59,6 +65,7 @@ function App() {
 					<Route path='/introduce' element={<Introduce />} />
 					<Route path='/transaction/*' element={<Transaction />} />
 					<Route path='/search/' element={<ProjectSearch />} />
+					{/* <Route path='/project/' element={<Project />} /> */}
 					<Route path='/detail-project/' element={<DetailProject />} />
 					<Route path='/contact' element={<Support/>} />
 					<Route path='*' element={<Notfound />} />

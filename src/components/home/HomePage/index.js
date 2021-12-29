@@ -21,7 +21,7 @@ function HomePage(props) {
 			<Projects data={landingPageData.Projects} />
 			<BusinessPhilosophy data={landingPageData.About} />
 			<News data={landingPageData.News} />
-			<Prizes data={landingPageData.Features} />
+			<Prizes data={landingPageData.Prizes} />
 			<Testimonials data={landingPageData.Testimonials} />
 		</div>
 	);

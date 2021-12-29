@@ -4,6 +4,20 @@ export const Flat = (props) => {
 			<div className='container'>
 				<div className='row'>
 					<div className='col-xs-12 col-md-6'>
+						<div className='about-text'>
+							<h2>Mặt bằng phân khu</h2>{" "}
+							<p>
+								Husthome Symphony là một trong những dự án khu đô thị có quy mô
+								lớn nhất Thủ đô Hà Nội, Khu đô thị Dương Nội được xây dựng và
+								phát triển dựa trên mối tương quan cân bằng giữa không gian đô
+								thị và môi trường tự nhiên, tạo nên một thành phố đa chức năng,
+								một không gian lý tưởng đáp ứng mọi nhu cầu về nhà ở, văn phòng,
+								thương mại, du lịch và vui chơi giải trí đẳng cấp và hiện đại
+								bậc nhất thành phố.
+							</p>
+						</div>
+					</div>
+					<div className='col-xs-12 col-md-6'>
 						<img
 							src=' https://storage.googleapis.com/vinhomes-data-01/styles/images_1138_x_606/public/2021_08/Hinh-anh-mat-bang-Vinhomes-Symphony_1628584404.jpg?itok=QSVsY28b'
 							alt=''
@@ -13,19 +27,6 @@ export const Flat = (props) => {
 								borderRadius: "5px",
 							}}
 						/>
-					</div>
-					<div className='col-xs-12 col-md-6'>
-						<div className='about-text'>
-							<h2>Mặt bằng phân khu Husthome Symphony </h2>{" "}
-							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-								nulla ducimus officia iure incidunt laboriosam. Fugit cupiditate
-								ipsam nihil provident temporibus nesciunt, eos in hic accusamus
-								excepturi blanditiis porro quidem rem eum inventore nulla,
-								aliquam totam tempora distinctio obcaecati facere a est iure.
-								Fuga, consequuntur animi quod dolorum ullam sit?
-							</p>
-						</div>
 					</div>
 				</div>
 			</div>

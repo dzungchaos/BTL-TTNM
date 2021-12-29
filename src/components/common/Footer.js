@@ -38,8 +38,8 @@ export const Footer = (props) => {
 							<div className='section-title'>
 								<h2>ĐỂ LẠI THÔNG TIN TƯ VẤN</h2>
 								<p>
-									Please fill out the form below to send us an email and we will
-									get back to you as soon as possible.
+									Vui lòng để lại thông tin và nội dung cần tư vấn, chúng tôi sẽ
+									liên hệ giải đáp các thắc mắc của bạn sớm nhất có thể
 								</p>
 							</div>
 							<form name='sentMessage' validate>

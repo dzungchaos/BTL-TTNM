@@ -11,8 +11,9 @@ export const Projects = (props) => {
 				<div className='col-md-8 col-md-offset-2 section-title'>
 					<h2>DỰ ÁN NỔI BẬT</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-						dapibus leonec.
+						HustHome là khởi đầu của một hành trình lớn , hành trình đưa các cư
+						dân đi trải nghiệm một cuộc sống với những giá trị về cộng đồng và
+						văn hóa con người
 					</p>
 				</div>
 

@@ -1,23 +1,28 @@
-export const Services = (props) => {
+export const Partners = (props) => {
 	return (
-		<div
-			id='services'
-			className='text-center'
-			style={{ backgroundColor: "#f6f6f6" }}>
+		<div id='services' className='text-center'>
 			<div className='container'>
 				<div className='section-title'>
-					<h2>ĐỐI TÁC KINH DOANH</h2>
-					<p>
+					<h2>Đối tác kinh doanh</h2>
+					{/* <p>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
 						dapibus leonec.
-					</p>
+					</p> */}
 				</div>
 				<div className='row'>
 					{props.data
 						? props.data.map((d, i) => (
 								<div key={`${d.name}-${i}`} className='col-md-4'>
-									{" "}
-									<i className={d.icon}></i>
+									<img
+										src={d.icon}
+										alt='img-partners'
+										style={{
+											width: "70%",
+											height: "150px",
+											objectFit: "cover",
+											borderRadius: "20px",
+										}}
+									/>
 									<div className='service-desc'>
 										<h3>{d.name}</h3>
 										<p>{d.text}</p>

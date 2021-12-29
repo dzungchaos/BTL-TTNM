@@ -331,7 +331,8 @@ header .intro-text {
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255, 255, 255, 0.3);
+	/* background: rgba(255, 255, 255, 0.3); */
+	background: linear-gradient(to right, #ffc048 0%, #c57b1c 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;

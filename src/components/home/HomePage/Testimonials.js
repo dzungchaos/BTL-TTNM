@@ -4,6 +4,7 @@ export const Testimonials = (props) => {
 			<div className='container'>
 				<div className='section-title text-center'>
 					<h2>PHẢN HỒI KHÁCH HÀNG</h2>
+					<p>Tâm sự của các chủ nhân sở hữu căn hộ Husthomes</p>
 				</div>
 				<div className='row'>
 					{props.data
@@ -11,7 +12,6 @@ export const Testimonials = (props) => {
 								<div key={`${d.name}-${i}`} className='col-md-4'>
 									<div className='testimonial'>
 										<div className='testimonial-image'>
-											{" "}
 											<img src={d.img} alt='' />{" "}
 										</div>
 										<div className='testimonial-content'>

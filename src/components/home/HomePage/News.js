@@ -11,8 +11,8 @@ export const News = (props) => {
 				<div className='col-md-8 col-md-offset-2 section-title'>
 					<h2>TIN TỨC MỚI NHẤT</h2>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-						dapibus leonec.
+						Chúng tôi cung cấp thông tin nhanh và chính xác nhất, mang đến cho
+						khách hàng những giá trị kiến thức chính xác
 					</p>
 				</div>
 

@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import JsonData from "../../../data/data.json";
+import { DetailProjectDemo } from "./DetailProjectDemo";
 import { Flat } from "./Flat";
 import { Position } from "./Position";
 import { Utilities } from "./Utilities";
+import VirtualTuor from "./VirtualTuor";
 
 const DetailProject = () => {
 	const [landingPageData, setLandingPageData] = useState({});
@@ -11,8 +13,10 @@ const DetailProject = () => {
 	}, []);
 	return (
 		<div style={{ marginTop: "50px" }}>
-			<Position />
+			<VirtualTuor />
+			<DetailProjectDemo />
 			<Flat />
+			<Position />
 			<Utilities data={landingPageData.Utilities} />
 		</div>
 	);
