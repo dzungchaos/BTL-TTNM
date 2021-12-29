@@ -18,7 +18,7 @@ export function Vrt(props) {
   // };
 
   return (
-    <div class="">
+    <div class="VRT">
 		<Chat></Chat>
       <Apartment></Apartment>
       <Link style={{left:"38.5%"}} class="float" to="overview">OVERVIEW</Link>
@@ -30,7 +30,7 @@ export function Vrt(props) {
 
 const Apartment = (props) => {
   return (
-    <ul class="float">
+    <ul class="float apartment">
       <li style={{background: "none"}}>
         <a >APARTMENT</a>
         <ul>
