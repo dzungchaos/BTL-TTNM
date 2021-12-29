@@ -1,6 +1,6 @@
 import './Support.css'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import "./components/FontAwesomeIcons"
+import "./res"
 
 const Support = () => {
     return (
