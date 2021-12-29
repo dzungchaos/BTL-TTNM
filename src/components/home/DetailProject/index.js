@@ -12,9 +12,9 @@ const DetailProject = () => {
 	}, []);
 	return (
 		<div style={{ marginTop: "50px" }}>
-			<Position />
 			<DetailProjectDemo />
 			<Flat />
+			<Position />
 			<Utilities data={landingPageData.Utilities} />
 		</div>
 	);

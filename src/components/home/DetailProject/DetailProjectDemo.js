@@ -1,6 +1,6 @@
 export const DetailProjectDemo = (props) => {
 	return (
-		<div id='about'>
+		<div id='about' style={{ backgroundColor: "#fff" }}>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-xs-12 col-md-6'>
@@ -25,17 +25,31 @@ export const DetailProjectDemo = (props) => {
 													<li key={`${d}-${i}`}> {d}</li>
 											  ))
 											: "loading"} */}
-										<li>Tên dự án: Husthome Symphony </li>
-										<li>Vị trí: Khu Đô Thị Dương Nội _ Tố Hữu_ Hà Đông</li>
-										<li>Quy mô dự án: 300 ha</li>
-										<li>Tổng số lượng căn: 3147 căn</li>
-										<li>Pháp lý dự án: Sở hữu vĩnh viện</li>
-										<li>Thời gian triển khai: 2021</li>
 										<li>
-											Tiêu chuẩn bàn giao: Bàn giao nhà hoàn thiện mặt ngoài
+											<b>Tên dự án:</b> Husthome Symphony
 										</li>
 										<li>
-											Phong cách thiết kế: Thiết kế theo phong cách hiện đại
+											<b>Vị trí:</b> Khu Đô Thị Dương Nội _ Tố Hữu_ Hà Đông
+										</li>
+										<li>
+											<b>Quy mô dự án:</b> 300 ha
+										</li>
+										<li>
+											<b>Tổng số lượng căn:</b> 3147 căn
+										</li>
+										<li>
+											<b>Pháp lý dự án:</b> Sở hữu vĩnh viện
+										</li>
+										<li>
+											<b>Thời gian triển khai:</b> 2021
+										</li>
+										<li>
+											<b>Tiêu chuẩn bàn giao:</b> Bàn giao nhà hoàn thiện mặt
+											ngoài
+										</li>
+										<li>
+											<b>Phong cách thiết kế:</b> Thiết kế theo phong cách hiện
+											đại
 										</li>
 									</ul>
 								</div>

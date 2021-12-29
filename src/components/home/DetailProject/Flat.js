@@ -1,6 +1,6 @@
 export const Flat = (props) => {
 	return (
-		<div id='about' style={{ backgroundColor: "#fff" }}>
+		<div id='about'>
 			<div className='container'>
 				<div className='row'>
 					<div className='col-xs-12 col-md-6'>
