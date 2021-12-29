@@ -4,6 +4,12 @@ export const Prizes = (props) => {
 			<div className='container'>
 				<div className='col-md-10 col-md-offset-1 section-title'>
 					<h2>GIẢI THƯỞNG</h2>
+					<p>
+						Với những đóng góp, nỗ lực cống hiến không ngừng vì sự phát triển
+						bền vững của xã hội, trong quá trình hơn 34 năm hình thành và phát
+						triển, Husthome đã ghi dấu ấn với các đối tác, khách hàng bằng nhiều
+						thành tích xuất sắc
+					</p>
 				</div>
 				<div className='row'>
 					{props.data

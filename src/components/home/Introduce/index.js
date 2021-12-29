@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import JsonData from "../../../data/data.json";
 import { HustHome } from "./HustHome";
 import { ImagesCompany } from "./ImagesCompany";
-import { Services } from "./Services";
+import { Partners } from "./Partners";
 import { Vision } from "./Vision";
 
 function Introduce(props) {
@@ -16,7 +16,7 @@ function Introduce(props) {
 			<ImagesCompany data={landingPageData.Gallery} />
 			<HustHome data={landingPageData.About} />
 			<Vision data={landingPageData.About} />
-			<Services data={landingPageData.Services} />
+			<Partners data={landingPageData.Partners} />
 		</div>
 	);
 }

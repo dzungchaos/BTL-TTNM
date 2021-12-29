@@ -9,33 +9,28 @@ export const Vision = (props) => {
 							src='https://oceanpark.vietstarland.vn/wp-content/uploads/2021/10/biet-thu-vinhomes-ocean-park-vietstarland-16.jpg'
 							className='img-responsive'
 							alt=''
+							style={{
+								borderRadius: "10px",
+								boxShadow: "rgb(0 0 0 / 15%) 0px 0.5rem 1rem",
+							}}
 						/>{" "}
 					</div>
 					<div className='col-xs-12 col-md-6'>
 						<div className='about-text'>
 							<h2>TẦM NHÌN - SỨ MỆNH</h2>
-							<p>{props.data ? props.data.paragraph : "loading..."}</p>
-							<h3>Why Choose Us?</h3>
-							<div className='list-style'>
-								<div className='col-lg-6 col-sm-6 col-xs-12'>
-									<ul>
-										{props.data
-											? props.data.Why2.map((d, i) => (
-													<li key={`${d}-${i}`}> {d}</li>
-											  ))
-											: "loading"}
-									</ul>
-								</div>
-							</div>
-							<div className='col-lg-6 col-sm-6 col-xs-12'>
-								<ul>
-									{props.data
-										? props.data.Why.map((d, i) => (
-												<li key={`${d}-${i}`}>{d}</li>
-										  ))
-										: "loading"}
-								</ul>
-							</div>
+							{/* <p>{props.data ? props.data.paragraph : "loading..."}</p> */}
+							<p>
+								Khát vọng vươn lên trở thành Tập đoàn đầu tư và phát triển bất
+								động sản chuyên nghiệp hàng đầu khu vực, Tập đoàn HustHome phát
+								huy sáng tạo các giá trị truyền thống, vươn tầm quốc tế, tạo lập
+								các giá trị thịnh vượng và bền vững cho cộng đồng.
+							</p>
+							<p>
+								Với phương châm hợp tác, song hành với các đối tác chiến lược
+								kết hợp với sự chuyên nghiệp, hiệu quả, sáng tạo của đội ngũ
+								nhân sự, HustHone cam kết đem lại giá trị gia tăng cho khách
+								hàng và kiến tạo những giá trị bền vững, nhân văn cho xã hội.
+							</p>
 						</div>
 					</div>
 				</div>
