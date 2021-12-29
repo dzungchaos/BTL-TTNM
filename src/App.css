@@ -22,24 +22,28 @@
   text-decoration: none;
 }
 
+.float:hover {
+	background-color: #105b6a80;
+}
+
 /* I.1. APARTMENT: */
 
-a {
+.VRT a {
   text-decoration: none;
 }
 
-nav {
+.VRT nav {
   font-family: monospace;
 }
 
-ul {
+.VRT ul {
   /* background: darkorange; */
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
 
-li {
+.VRT li {
   color: #fff;
   background: darkorange;
   display: block;
@@ -49,21 +53,21 @@ li {
   transition-duration: 0.5s;
 }
   
-li a {
+.VRT li a {
   color: #fff;
 }
 
-li:hover,
-li:focus-within {
+.VRT li:hover,
+.VRT li:focus-within {
   background: red;
   cursor: pointer;
 }
 
-li:focus-within a {
+.VRT li:focus-within a {
   outline: none;
 }
 
-ul li ul {
+.VRT ul li ul {
   /* background: orange; */
   visibility: hidden;
   opacity: 0;
@@ -76,23 +80,23 @@ ul li ul {
   display: none;
 }
 
-ul li ul li {
+.VRT ul li ul li {
   padding: 1rem;
   border-radius: 10px;
   margin: 1%;
 	font-size: 85% !important;
 }
 
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+.VRT ul li:hover > ul,
+.VRT ul li:focus-within > ul,
+.VRT ul li ul:hover,
+.VRT ul li ul:focus {
    visibility: visible;
    opacity: 1;
    display: block;
 }
 
-ul li ul li {
+.VRT ul li ul li {
   clear: both;
   /* width: 100%; */
 }
@@ -100,40 +104,59 @@ ul li ul li {
 /* --- */
 
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#features {
+		padding: 20px;
+		width: 111%;
+	}
+	#about,
+	#services,
+	#testimonials,
+	#team,
+	#contact,
+	#footer {
+		width: 111%;
+	}
+
+	#portfolio {
+		width: 110%;
+	}
 }

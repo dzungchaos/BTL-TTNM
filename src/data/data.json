@@ -1,0 +1,326 @@
+{
+	"Header": {
+		"paragraph": "Husthomes mong muốn kết nối cộng đồng, xây dựng môi trường sống văn minh, năng động cùng không gian sống xanh, giúp cư dân và khách hàng tận hưởng cuộc sống tốt đẹp và chất lượng mỗi ngày",
+		"searching": "Tìm kiếm các sản phẩm phù hợp với nhu cầu của bạn."
+	},
+	"About": {
+		"paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		"Why": [
+			"Lorem ipsum dolor",
+			"Tempor incididunt",
+			"Lorem ipsum dolor",
+			"Incididunt ut labore"
+		],
+		"Why2": [
+			"Aliquip ex ea commodo",
+			"Lorem ipsum dolor",
+			"Exercitation ullamco",
+			"Lorem ipsum dolor"
+		]
+	},
+	"Gallery": [
+		{
+			"title": "",
+			"largeImage": "img/portfolio/01-large.jpg",
+			"smallImage": "img/portfolio/01-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/02-large.jpg",
+			"smallImage": "img/portfolio/02-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/03-large.jpg",
+			"smallImage": "img/portfolio/03-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/04-large.jpg",
+			"smallImage": "img/portfolio/04-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/05-large.jpg",
+			"smallImage": "img/portfolio/05-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/06-large.jpg",
+			"smallImage": "img/portfolio/06-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/07-large.jpg",
+			"smallImage": "img/portfolio/07-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/08-large.jpg",
+			"smallImage": "img/portfolio/08-small.jpg"
+		},
+		{
+			"title": "",
+			"largeImage": "img/portfolio/09-large.jpg",
+			"smallImage": "img/portfolio/09-small.jpg"
+		}
+	],
+	"Services": [
+		{
+			"icon": "fa fa-wordpress",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-cart-arrow-down",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-cloud-download",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-language",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-plane",
+			"name": "Lorem ipsum dolor",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		},
+		{
+			"icon": "fa fa-pie-chart",
+			"name": "Consectetur adipiscing",
+			"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+		}
+	],
+	"Partners": [
+		{
+			"icon": "img/partnres/ncb.jpg",
+			"name": "Ngân hàng Quốc dân NCB",
+			"text": "Sự hợp tác lâu dài HustHome và NCB mang lại cho quý cư dân nhiều tiện ích đặc biệt."
+		},
+		{
+			"icon": "img/partnres/ntv.png",
+			"name": "Công ty Nội thất Việt",
+			"text": "Với những sản phẩm nội thất phong phú, đa dạng phong cách."
+		},
+		{
+			"icon": "img/partnres/udic.jpg",
+			"name": "Công ty đầu tư phát triển hạ tầng",
+			"text": "Sự kết hợp của HustHome và UDIC đưa ra được tầm nhìn chiến lược tiện ích cho khách hàng."
+		}
+	],
+	"Testimonials": [
+		{
+			"img": "img/testimonials/01.jpg",
+			"text": "\"Mình rất hài lòng khi sinh sống ở đây, các căn hộ ở đây được thiết kế cách âm không gây ra ồn ào khó chịu cho hàng xóm, mọi người ở đây đều rất hoà đồng và vui tính.\"",
+			"name": "Anh Phạm Nhật Hoàng, 32 tuổi"
+		},
+		{
+			"img": "img/testimonials/04.jpg",
+			"text": "\"Gia đình tôi trước đây từng sinh sống ở Hạ Đình, đó là một môi trường sinh sống khá phức tạp, từ ngày chuyển đến đây chất lượng cuộc sống được cải thiện rất nhiều.\"",
+			"name": "Chị Trần Huyền Ngọc, 29 tuổi"
+		},
+		{
+			"img": "img/testimonials/06.jpg",
+			"text": "\"Khi đến ở khu đô thị Husthomes tôi cảm thấy rất vui vì đã tìm một nơi cho bố mẹ sinh sống yên tĩnh, an toàn về an ninh, ở đây có khuôn viên rộng và những khu vui chơi.\"",
+			"name": "Bà Trần Khánh Ngọc- Hưu trí "
+		},
+		{
+			"img": "img/testimonials/03.jpg",
+			"text": "\"Gia đình tôi trước đây từng sinh sống ở Hạ Đình, đó là một môi trường sinh sống khá phức tạp, từ ngày chuyển đến đây chất lượng cuộc sống được cải thiện rất nhiều.\"",
+			"name": "Chị Trần Huyền Ngọc, 29 tuổi"
+		},
+		{
+			"img": "img/testimonials/02.jpg",
+			"text": "\"Khi đến ở khu đô thị Husthomes tôi cảm thấy rất vui vì đã tìm một nơi cho bố mẹ sinh sống yên tĩnh, an toàn về an ninh, ở đây có khuôn viên rộng và những khu vui chơi.\"",
+			"name": "Bà Trần Khánh Ngọc- Hưu trí "
+		},
+		{
+			"img": "img/testimonials/05.jpg",
+			"text": "\"Mình rất hài lòng khi sinh sống ở đây, các căn hộ ở đây được thiết kế cách âm không gây ra ồn ào khó chịu cho hàng xóm, mọi người ở đây đều rất hoà đồng và vui tính.\"",
+			"name": "Anh Phạm Nhật Hoàng, 32 tuổi"
+		}
+	],
+	"Team": [
+		{
+			"img": "img/team/01.jpg",
+			"name": "John Doe",
+			"job": "Director"
+		},
+		{
+			"img": "img/team/02.jpg",
+			"name": "Mike Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/03.jpg",
+			"name": "Jane Doe",
+			"job": "Senior Designer"
+		},
+		{
+			"img": "img/team/04.jpg",
+			"name": "Karen Doe",
+			"job": "Project Manager"
+		}
+	],
+	"News": [
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_12/Screen%20Shot%202021-12-07%20at%2008_1638842379.png?itok=KX5bolsx",
+			"name": "Vinhomes chính thức ra mắt phân khu Mẫu Đơn tại Vinhomes Star City",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/anh-thay-1637502693910745347497_1637730655.png?itok=RjqyHywd",
+			"name": "[Live] Talk show Người tiên phong: GenZ - Phá vỡ giới hạn - Đột phá tiên phong",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/viber_image_2021-11-08_14-57-40-010_1636358396.png?itok=HhYSImqQ",
+			"name": "Technopark Tower được vinh danh “Trung tâm thông minh nhất tại” IBcon Digie Awards",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/3_1636360386.jpg?itok=fp88ehmo",
+			"name": "Talk show “Người tiên phong”: Green Code to the future - Mã xanh vào tương lai",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/cho-nhung-cu-bat-nhay-thi-truong-bds-phia-nam-dip-cuoi-nam-1_1636178983.jpeg?itok=oqtuOSzQ",
+			"name": "Vinhomes tung ưu đãi đặc biệt cho khách hàng phía Bắc",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/photo-1-16361117948341082154210-50-0-786-1179-crop-1636111825287-63771737004760_1636176033.jpeg?itok=P_Xcyn-Y",
+			"name": "Title news 6",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_11/anh-1-1407_1636001887.jpeg?itok=c2OCPseV",
+			"name": "Title news 7",
+			"job": ""
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_263_x_146/public/2021_10/Landmark%2081%20%E2%80%93%20Ky%CC%80%20quan%20%C4%91o%CC%82%20thi%CC%A3%20mang%20tra%CC%81i%20tim%20Vie%CC%A3%CC%82t%20Nam_1635420272.png?itok=NIku3uEM",
+			"name": "Title news 8",
+			"job": ""
+		}
+	],
+	"Projects": [
+		{
+			"img": "img/project/project-1.jpeg",
+			"name": "Hust Homes Ocean Park",
+			"job": "Gia Lâm - Hà Nội"
+		},
+		{
+			"img": "img/project/project-2.jpg",
+			"name": "Hust Homes Smart City",
+			"job": "Nam Thăng Long - Hà Nội"
+		},
+		{
+			"img": "img/project/project-3.jpg",
+			"name": "Hust Home Dream City",
+			"job": "Văn Giang - Hưng Yên"
+		},
+		{
+			"img": "img/project/project-6.jpg",
+			"name": "Hust Home Grand Park",
+			"job": "Q2 - Thành Phố Hồ Chí Minh"
+		},
+		{
+			"img": "img/project/project-5.jpg",
+			"name": "Hust Home Grand Park",
+			"job": "Q2 - Thành Phố Hồ Chí Minh"
+		},
+		{
+			"img": "img/project/project-4.jpg",
+			"name": "Hust Home Dream City",
+			"job": "Văn Giang - Hưng Yên"
+		}
+	],
+	"Utilities": [
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/vincom-plaza-long-bien.jpg?itok=rYJBkeTM",
+			"name": "Trung tâm thương mại"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/hinh-anh-tong-quan-Vinhomes-Metropolis-du-an-dang-cap-bac-nhat-tai-trai-tim-thu-do-so-12_1626076614.jpeg?itok=lIIbPdCL",
+			"name": "Trường học liên cấp "
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/tien-ich-be-boi-vinhomes-symphony.jpg?itok=XfYU4KPa",
+			"name": "Bể bơi ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-vinhomes-symphony-chinh-thuc-2-2-1024x571.jpg?itok=3EXKBYQg",
+			"name": "Thể thao ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-vinhomes-symphony-chinh-thuc-5-1-1024x574.jpg?itok=qAj8VrxK",
+			"name": "Sân chơi ngoài trời"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/4.jpg?itok=rgZNhEuY",
+			"name": "Vườn nướng BBQ"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/phoi-canh-noi-khu-vinhomes-symphony_0.jpg?itok=eFGk9cS3",
+			"name": "Quảng trường vui chơi"
+		},
+		{
+			"img": "https://storage.googleapis.com/vinhomes-data-01/styles/images_278_x_176/public/2021_07/Vinhomes-New-Center-4.jpg?itok=uhTJ345C",
+			"name": "Khu vui chơi trẻ em"
+		}
+	],
+	"Contact": {
+		"address": "4321 California St, San Francisco, CA 12345 ",
+		"phone": "+1 123 456 1234",
+		"email": "info@company.com",
+		"facebook": "fb.com",
+		"twitter": "twitter.com",
+		"youtube": "youtube.com"
+	},
+	"Features": [
+		{
+			"icon": "fa fa-comments-o",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-bullhorn",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-group",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		},
+		{
+			"icon": "fa fa-magic",
+			"title": "Lorem ipsum",
+			"text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+		}
+	],
+	"Prizes": [
+		{
+			"img": "img/prizes/prize1.jpg",
+			"title": "Công trình tiết kiệm tài nguyên EDGE",
+			"text": "Được UNESCO công nhận vào năm 2014"
+		},
+		{
+			"img": "img/prizes/prize2.jpg",
+			"title": "Bảng vinh danh “Gia tộc doanh nhân” ",
+			"text": "Được người dùng Việt Nam bình chọn năm 2014"
+		},
+		{
+			"img": "img/prizes/prize3.jpg",
+			"title": "Top 100 sản phẩm, dịch vụ tốt",
+			"text": "Công trình xanh, sử dụng tài nguyên hiệu quả"
+		}
+	]
+}
