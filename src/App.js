@@ -68,7 +68,7 @@ function App() {
 					<Route path='/introduce' element={<Introduce />} />
 					<Route path='/transaction/*' element={<Transaction />} />
 					<Route path='/search/' element={<ProjectSearch />} />
-					{/* <Route path='/project/' element={<Project />} /> */}
+					<Route path='/project/' element={<Project />} />
 					<Route path='/detail-project/' element={<DetailProject />} />
 					<Route path='/news/' element={<News />} />
 					<Route path='/contact/' element={<Support />} />
