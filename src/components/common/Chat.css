@@ -1,6 +1,6 @@
 #chatCon {
 	width: 20%;
-	position: absolute;
+	position: fixed;
 	bottom: 3%;
 	right: 3%;
 	/* border: 1px solid black; */
