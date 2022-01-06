@@ -36,7 +36,7 @@ const News = () => {
 								<hr />
 								<ul>
 									<li className='list_market'>
-										<Link to='/news-detail'>
+										<Link className="news_market_link" to='/news-detail'>
 											<div id='market_image' className='market_column'>
 												<img className='illustration' src={hoangthanh} />
 											</div>
